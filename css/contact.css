@@ -1,0 +1,95 @@
+/* Base Styles for Contact Page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+main {
+    padding: 20px;
+}
+
+main h1 {
+    text-align: center;
+    color: #044B78;
+    font-size: 2rem;
+}
+
+main p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #044B78;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+ 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #044B78;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #033a5e;
+}
+
+/* Footer Styles */
+footer {
+    font-size: 0.9rem;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    margin-top: 20px;
+}

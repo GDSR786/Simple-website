@@ -1,0 +1,137 @@
+/* Default styles for the website */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Light background color */
+}
+
+/* Container styles */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header styles */
+header {
+  background-color: #044B78;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Navigation styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #044B78;
+  padding: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-links a:hover {
+  background-color: #0365A8;
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .hamburger {
+      display: block;
+  }
+
+  .nav-links {
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      margin-top:18%;
+      left: 0;
+      background-color: #044B78;
+      width: 95%;
+      margin-right:auto;
+      margin-left:auto;
+      display: none;
+  }
+
+  .nav-links.show {
+      display: flex;
+  }
+}
+
+/* Main section styles */
+main {
+  display: block;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+/* Headings styles */
+h1 {
+  font-size: 2rem;
+  color: #044B78; /* Change the heading color */
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Footer styles */
+footer {
+  font-size: 0.9rem;
+  color: white;
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Footer link styles */
+footer a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* List item formatting */
+nav a {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Additional styles */
+img {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

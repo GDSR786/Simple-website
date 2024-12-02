@@ -1,0 +1,117 @@
+/* Base Styles for Team Page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+main section, aside {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+main section h1, aside h2 {
+    color: #044B78;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+main article {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #eef3f9;
+    border-left: 4px solid #044B78;
+    border-radius: 5px;
+}
+
+main article h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+main article p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+figure figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+/* Aside Styles */
+aside {
+    background-color: #eef7f4;
+    border-left: 5px solid #4CAF50;
+    font-size: 0.9rem;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    padding: 5px 0;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    main section, aside {
+        padding: 15px;
+    }
+
+    main section h1, aside h2 {
+        font-size: 1.5rem;
+    }
+
+    main article h3 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main section, aside {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    main section h1, aside h2 {
+        font-size: 1.3rem;
+    }
+
+    main article h3 {
+        font-size: 0.9rem;
+    }
+}

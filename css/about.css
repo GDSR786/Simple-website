@@ -1,0 +1,86 @@
+/* Base Styles for About Page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+main section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+main h1 {
+    color: #044B78;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+main p, main ol {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Navigation link styles */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #00aaff;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    font-size: 0.9rem;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    main section {
+        padding: 15px;
+    }
+
+    main h1 {
+        font-size: 1.5rem;
+    }
+
+    main p, main ol {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main section {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    main h1 {
+        font-size: 1.3rem;
+    }
+
+    main p, main ol {
+        font-size: 0.8rem;
+    }
+}
