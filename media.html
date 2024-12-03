@@ -1,86 +1,76 @@
 <!DOCTYPE html>
-<!--  
-    Author: Your Name
-    Student Number: Your_Student_Number
+<!-- 
+Name: Harmanpreet Kaur Saini
+Student Number: C0954930
  -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Media - Your Company Name</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <title>Media - Toastify Toasters</title>
     <link rel="stylesheet" href="css/media.css" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-        <script src="js/nav.js" defer></script>
+      <link rel="icon" href="images/logo.png">
+         <script src="js/scripts.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
-
   <body>
-    <div class="container">
     <header>
-        <img src="banner.jpg" alt="Company Banner" width="100%" height="200" />
-      </header>
-
-      <nav class="navbar">
-        <div class="logo">
-          <a href="index.html"><img src="logo.png" alt="Company Logo" /></a>
+      <img src="images/logo.png" alt="Toastify Toasters Banner" width="100px" />
+    </header>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Toastify</a>
+            <div class="hamburger" id="hamburger">
+                &#9776; <!-- Hamburger Icon -->
+            </div>
+            <div class="nav-links" id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="team.html">Our Team</a>
+                <a href="specials.html">Specials</a>
+                <a href="training.html">Training</a>
+                <a href="media.html">Media</a>
+                <a href="faqs.html">FAQs</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
         </div>
-        <button class="hamburger" aria-label="Toggle navigation">☰</button>
-        <ul class="nav-links">
-          <li>
-            <a href="index.html">Home</a>
-          </li>
+    </nav>
+    <main>
+      <h1>Media</h1>
+      <p>Welcome to the Media Center of Toastify Toasters. Here you can explore our latest promotional content, tutorials, and more!</p>
 
-          <li>
-            <a href="about.html">About</a>
-          </li>
+      <section>
+        <h2>Toaster Symphony - A Toastify Jingle</h2>
+        <p>Enjoy the sweet melody of perfectly toasted bread with our exclusive jingle. Play it below:</p>
+        <audio controls>
+          <source src="media/sandwich-toaster-199531.mp3" type="audio/mpeg" />Your browser does not support the audio element.
+        </audio>
+      </section>
 
-          <li>
-            <a href="team.html">Our Team</a>
-          </li>
+      <section>
+        <h2>How to Use Your Toastify Toaster</h2>
+        <p>Watch this quick video to get the best out of your toaster and make perfect toast every time:</p>
+        <video controls width="600" poster="images/toaster-banner.png">
+          <source src="media/toaster-video.mp4" type="video/mp4" />Your browser does not support the video element.
+        </video>
+      </section>
 
-          <li>
-            <a href="specials.html">Specials</a>
-          </li>
-          <li>
-            <a href="training.html">Training</a>
-          </li>
-          <li>
-            <a href="media.html">Media</a>
-          </li>
-          <li>
-            <a href="faqs.html">FAQs</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact Us</a>
-          </li>
+      <section>
+        <h2>Customer Highlights</h2>
+        <p>Here’s a sneak peek into how our customers are enjoying their Toastify toasters:</p>
+        <ul>
+          <li>"Toastify saved my mornings! Best purchase ever!" - Happy Customer</li>
+          <li>"Perfect toast every time. Highly recommend Toastify." - Toast Enthusiast</li>
+          <li>"Innovative and easy to use. A must-have!" - Kitchen Lover</li>
         </ul>
-      </nav>
-      <main>
-        <h1>Media Gallery</h1>
-        <p>Welcome to our media section! Enjoy our curated audio and video content that reflects our brand and services.</p>
-
-        <section>
-          <h2>Audio Component</h2>
-          <p>Listen to our company theme music:</p>
-          <audio controls>
-            <source src="audio/company-theme.mp3" type="audio/mpeg" />Your browser does not support the audio element.
-          </audio>
-        </section>
-
-        <section>
-          <h2>Video Component</h2>
-          <p>Watch our promotional video:</p>
-          <video controls width="640" height="360">
-            <source src="video/company-promo.mp4" type="video/mp4" />Your browser does not support the video tag.
-          </video>
-        </section>
-      </main>
-
-      <footer>
-        &copy; Copyright 2099. All Rights Reserved.<br />
-        <a href="mailto:info@your_company_name.com">Request information</a><br />
-        Your Name &nbsp; &nbsp; Your_Student_Number
-      </footer>
-    </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Copyright 2099. All Rights Reserved.</p>
+      <p>
+        <a href="mailto:info@toastify.com">Request information</a>
+      </p>
+        <p>Harmanpreet Kaur Saini &nbsp; &nbsp; C0954930</p>
+    </footer>
   </body>
 </html>
